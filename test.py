@@ -18,3 +18,4 @@ d = {
     'province': "Quebec"
     }
 print d
+print 'hi'
