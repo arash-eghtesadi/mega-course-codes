@@ -81,9 +81,26 @@ for i, j in zip(names, email_domain):
 
 #----------------------------------------------------------------------------------------------------
 
-import sqlite3
+class first:
+    def setdata(self, value):
+        self.data = value
 
-class Database:
+    def getdata(self):
+        print 'from first ', self.data
 
-    def __init__():
-        conn-sqlite3.connect("books.db")
+# inheritance
+class second(first):
+    #overriding
+    def getdata(self):
+        print 'from second ', self.data
+
+    def message(self):
+        print 'object oriented programming'
+
+x = first()
+x.setdata(10)
+x.getdata()
+
+y = second()
+y.setdata('hi')
+y.getdata()
