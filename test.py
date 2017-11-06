@@ -80,3 +80,10 @@ for i, j in zip(names, email_domain):
     print i, j
 
 #----------------------------------------------------------------------------------------------------
+
+import sqlite3
+
+class Database:
+
+    def __init__():
+        conn-sqlite3.connect("books.db")
