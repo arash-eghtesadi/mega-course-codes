@@ -117,6 +117,7 @@ class student():
 
 # inheritance
 class eng_student(student):
+    # polymorphism
     def qualification(self):
         return 'engineering student'
 
