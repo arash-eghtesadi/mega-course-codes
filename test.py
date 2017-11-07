@@ -128,3 +128,20 @@ bob.display()
 mike = eng_student()
 mike.student_name('Mike')
 mike.display()
+
+#----------------------------------------------------------------------------------------------------
+
+# scope
+
+# global variable
+x = 10
+
+def f():
+    # local variable in method
+    x = 20
+
+class c:
+    # class variable
+    x = 30
+
+#----------------------------------------------------------------------------------------------------
